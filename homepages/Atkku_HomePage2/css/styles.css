@@ -1,0 +1,191 @@
+html, body {
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content {
+    border: 2px solid black;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 25px;
+}
+.content h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 8px black;
+    margin-bottom: 25px;
+}
+.content button, .what-we-do button {
+    background-color: #FEC606;
+    border: none;
+    color: black;
+    margin: 20px 20px;
+}
+.content button:hover, .what-we-do button:hover {
+    background-color: #9d7a01;
+    color: black;
+}
+
+#navbar-main {
+    opacity: 0.9;
+    text-shadow: .5px .5px 25px gray;
+}
+.navbar-nav a {
+    margin-right: 10px;
+}
+
+.what-we-do {
+    text-align: center;
+    height: 110%; 
+}
+
+.what-we-do h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #FEC606;
+    font-weight: bold;
+}
+.what-we-do p {
+    margin-top: 30;
+    color: white;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.title {
+    font-size: 25px;
+    color: #FEC606;
+}
+
+.services {
+    margin-top: 80px;
+    height: 80%;
+}
+.parallax-bg {
+    padding: 100px 0;
+    background-image: url("../images/water.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    transition: all 0.2s ease;
+}
+#clients {
+    height: 100%;
+}
+.amazing-clients {
+    text-align: center;
+    margin: 20px 20px; 
+}
+.amazing-clients h1 {
+     font-size: 50px;
+    letter-spacing: 1px;
+    color: #FEC606;
+    font-weight: bold;
+}
+.amazing-clients p {
+    margin-top: 30;
+    color: gray;
+}
+.boxes {
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    border: 1px solid #dedede;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.boxes:hover {
+    border: 3px solid #ffe99e;
+    box-shadow: 3px 3px 10px gray;
+    transition: all 0.3s;
+}
+.final {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.final h1 {
+    font-size: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #FEC606;
+    font-weight: bold;
+}
+.final p {
+    margin-top: 35px;
+    color: gray;
+    margin-top: 50;
+    text-align: justify
+}
+.form label {
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #FEC606;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 25px black;
+}
+.form input {
+    padding: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid lightgray;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+#contact-us {
+    height: 120%;
+    /*background: linear-gradient(to left, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);*/
+    /*background: linear-gradient(132deg, rgba(72,76,97,0), rgba(72,76,97,0.8));*/
+    background: linear-gradient(132deg, rgba(10,76,97,0), rgba(10,76,97,0.8));
+    background-size: 400% 400%;
+    animation: BackgroundGradient 10s ease infinite;
+}
+.form button {
+    color: #333;
+    background-color: #FEC606;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px black;
+    opacity: 0.8;
+    float: right;
+    margin-top: 50px;
+}
+.conclusion h4 {
+    text-align: center;
+    color: #FEC606;
+    font-variant: small-caps;
+}
+.conclusion h1 {
+    font-family: 'Crushed', cursive;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+    font-variant: small-caps;
+}
+.conclusion p {
+    color: gray;
+    line-height: 25px;
+    text-align: center;
+}
+.conclusion a {
+    font-size: 25px;
+    padding: 15px;
+    margin-left: 25px;
+}
+.conclusion {
+    height: 60%;
+}
+.conclusion input {
+    padding: 30px;
+    background-color: #f7f7f7;
+    border: 1px solid lightgray;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
